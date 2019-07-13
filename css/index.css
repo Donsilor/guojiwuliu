@@ -1,0 +1,380 @@
+.banner{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    margin-top: 138px;
+}
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 1980px;
+    height: 100%;
+}
+.advantage{
+    padding: 60px 0;
+}
+.content h2{
+    font-family: Ali_B;
+    font-size: 34px;
+    color: #333;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.bg_content{
+    position: relative;
+    width: 100%;
+    height: 142px;
+    margin-top: 14px;
+}
+.bg_content .bg_img{
+    width: 132px;
+    height: 142px;
+    background: url("../images/bg_01@2x.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.bg_content .text {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Ali_L;
+    font-size: 26px;
+    color: #333;
+}
+
+.c_text{
+    width: 748px;
+    font-family: Ali_L;
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 1px;
+    margin: 30px auto;
+}
+
+.c_advantage{
+    position: relative;
+    margin-top: 70px;
+}
+.c_advantage .left{
+    width: 600PX;
+}
+.c_advantage .left .img_box_a{
+    width: 100%;
+    height: 350px;
+}
+.c_advantage .left .img_box_a img{
+    width: 100%;
+    height: 100%;
+}
+.c_advantage .left .bg_orange{
+    width: 100%;
+    height: 396px;
+    background-color: #ff6f3c;
+}
+.c_advantage .left .bg_orange .c_box{
+    width: 276px;
+    margin-left: 168px;
+    color: #fff;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+.c_box .quot{
+    font-family: MsSansSerif;
+    line-height: 15px;
+    margin-left: -4px;
+}
+.c_box .quot .iconfont{
+    font-size: 30px;
+}
+.c_box .num,
+.c_box .name{
+    font-family: Ali_B;
+    font-size: 26px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+.c_box .small{
+    font-family: Ali_L;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 12px 0;
+}
+.c_box .explain{
+    font-family: Ali_R;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.c_box .line{
+    width: 38px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.c_advantage .img_box_c{
+    width: 262px;
+    height: 262px;
+    margin-top: -45px;
+}
+.c_advantage .left .img_box_c img{
+    width: 100%;
+    height: 100%;
+}
+
+.c_advantage .mid{
+    width: 396px;
+}
+.c_advantage .mid .text_a{
+    width: 100%;
+    height: 350px;
+}
+.c_advantage .mid .text_a .c_box{
+    width: 330px;
+    margin-left: 56px;
+    padding-top: 80px;
+    color: #333;
+}
+.c_advantage .mid .line{
+    background-color: #999;
+}
+.c_advantage .mid .img_box_b{
+    width: 100%;
+    height: 350px;
+}
+.c_advantage .mid .text_b{
+    width: 396px;
+    height: 226px;
+}
+.c_advantage .mid .text_b .c_box{
+    width: 336px;
+    margin-left: 70px;
+    padding-top: 45px;
+    color: #333;
+}
+.mid .text_b .c_box .num,
+.mid .text_b .c_box .name,
+.mid .text_b .c_box .small,
+.mid .text_b .c_box .explain{
+    text-align: right;
+}
+.c_advantage .mid .text_b .c_box .quot{
+    line-height: 8px;
+}
+.c_advantage .mid .text_b .c_box .line {
+    margin-top: 10px;
+}
+.c_advantage .mid .img_box_b img{
+    width: 100%;
+    height: 100%;
+}
+
+.c_advantage .right {
+    position: absolute;
+    right: 0;
+    bottom: 262px;
+    width: 204px;
+    height: 404px;
+    background-color: #ff6f3c;
+    padding: 36px 30px 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.serve{
+    background-color: #fff7f0;
+    padding: 60px 0;
+}
+.serve .list{
+    width: 264px;
+}
+.serve .list:not(:last-child){
+    margin-right: 48px;
+}
+.serve .img_box{
+    position: relative;
+    width: 240px;
+    height: 240px;
+    margin-bottom: 30px;
+}
+.serve .img_box img{
+    width: 100%;
+    height: 100%;
+}
+.serve .img_text{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    bottom: 24px;
+    left: 68px;
+    font-family: Ali_M;
+    font-size: 24px;
+    color: #333;
+    line-height: 30px;
+    text-align: center;
+}
+.serve .text{
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.exchange{
+    padding: 60px 0;
+}
+.exchange .box{
+    position: relative;
+    height: 540px;
+    border: 1px solid transparent;
+    margin-top: 60px;
+}
+.exchange .box .bg_img{
+    height: 392px;
+    background: url("../images/bg_02@2x.png") no-repeat center;
+    background-size: 100% 100%;
+    margin-top: 76px;
+}
+.exchange .box .font_16{
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+.exchange .box .font_14{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 6px;
+    white-space: nowrap;
+}
+
+.exchange .text_1{
+    position: absolute;
+    top: 20px;
+    left: 116px;
+}
+.exchange .text_2{
+    position: absolute;
+    top: 20px;
+    left: 502px;
+}
+.exchange .text_3{
+    position: absolute;
+    top: 20px;
+    left: 880px;
+}
+.exchange .text_4{
+    position: absolute;
+    top: 472px;
+    left: -20px;
+}
+.exchange .text_5{
+    position: absolute;
+    top: 472px;
+    left: 350px;
+}
+.exchange .text_6{
+    position: absolute;
+    top: 472px;
+    left: 638px;
+}
+.exchange .text_7{
+    position: absolute;
+    top: 472px;
+    left: 1060px;
+}
+
+
+.succeed{
+    padding: 60px 0;
+    background-color: #fff7f0;
+}
+.subhead{
+    width: 750px;
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+.succeed_r{
+    width: 1200px;
+    margin-top: 60px;
+}
+.succeed_r .img_box{
+    width: 50%;
+    height: 350px;
+}
+.succeed_r .img_box img{
+    width: 100%;
+    height: 100%;
+}
+.succeed_r .text_box{
+    width: 50%;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.succeed_r .tit_r{
+    font-family: ;
+    font-size: 26px;
+    color: #333;
+	text-align: center;
+}
+.succeed_r .text{
+    width: 100%;
+    height: 155px;
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    text-align: center;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.succeed_r .btn{
+    width: 144px;
+	height: 46px;
+	border: 1px solid #ff6f3c;
+	border-radius: 23px;
+	font-size: 18px;
+	color: #ff6f3c;
+	text-align: center;
+	line-height: 46px;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+.link{
+	height: 136px;
+	line-height: 136px;
+	background-color: #fff;
+}
+.link li{
+	font-size: 15px;
+	color: #666;
+	margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

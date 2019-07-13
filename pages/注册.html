@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<div class="login">
+    <div class="top clf">
+        <div class="logo fl">
+            <a href="./index.html">
+                <img src="../images/logo@2x.png" alt="">
+            </a>
+        </div>
+        <div class="tit fl">品牌传语牌宣传语</div>
+    </div>
+    <div>
+        <!--二维码登录-->
+        <div class="login_d">
+            <div class="type clf">
+                <div class="fl tab clf">
+                    <div class="list fl">注册</div>
+                </div>
+                <div class="fr code"><a href="./登录.html"></a></div>
+            </div>
+            <div class="login_r">
+                <div class="text_a">微信扫一扫</div>
+                <div class="text_b">关注微信公众号，即可登录</div>
+                <div class="code_r">
+                    <img src="../images/code@2x.png" alt="">
+                </div>
+                <div class="updata">刷新二维码</div>
+                <div class="agreement active">
+                    <span class="fl icon">
+                        <i class="iconfont iconduihao"></i>
+                    </span>我已阅读并同意《用户协议》
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="../common/jquery/jquery.js"></script>
+<script>
+    $('.agreement').click(function () {
+        $(this).toggleClass('active');
+    })
+</script>
+</body>
+</html>

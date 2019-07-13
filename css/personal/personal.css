@@ -1,0 +1,135 @@
+.personal_r{
+    padding-bottom: 180px;
+}
+.personal_r .management{
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+h4.tit .name{
+    color: #ff6f3c;
+    margin-left: 30px;
+}
+h4.tit span{
+    font-size: 14px;
+    color: #666;
+}
+.personal_r .order{
+    width: auto;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #ff6f3c;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+.order_tab{
+    margin-top: 30px;
+}
+.order_tab .list{
+    width: 20%;
+    text-align: center;
+}
+.order_tab .num{
+    font-size: 26px;
+    color: #ff6f3c;
+}
+.order_tab .status{
+    font-size: 14px;
+    color: #333;
+    margin-top: 14px;
+}
+
+.personal_r .enquiry,
+.personal_r .infomation{
+    width: 100%;
+    padding: 0 30px 180px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.personal_r .infomation{
+    padding-bottom: 30px;
+}
+.personal_r .enquiry .my_enquiry,
+.personal_r .infomation .info{
+    width: auto;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #ff6f3c;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+.enquiry_box{
+    width: 100%;
+    margin-top: 30px;
+}
+.enquiry_box .enquiry_list{
+    width: 425px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.enquiry_list:not(:nth-child(2n)){
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+.enquiry_list .list_top{
+    width: 100%;
+    height: 50px;
+    background-color: #f7f7f7;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    line-height: 50px;
+}
+.enquiry_list .icon1{
+    width: 28px;
+    height: 28px;
+    margin-top: 11px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+.enquiry_list .icon2{
+    width: 18px;
+    height: 12px;
+    margin: 19px 20px;
+    text-align: center;
+    line-height: 12px;
+}
+
+.enquiry_list .list_c{
+    padding: 20px;
+}
+.enquiry_list .list_c .name{
+    font-size: 16px;
+    color: #333;
+}
+.enquiry_list .list_c .look{
+    margin-top: 12px;
+}
+
+.enquiry_list .look .left{
+    font-size: 16px;
+    color: #999;
+}
+.enquiry_list .look .left .color{
+    color: #f00;
+}
+.enquiry_list .look .right{
+    width: 80px;
+    height: 28px;
+    border: 1px solid #ff6f3c;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    color: #ff6f3c;
+}
+

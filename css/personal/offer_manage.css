@@ -1,0 +1,132 @@
+.manage{
+    width: 100%;
+    min-height: 1000px;
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.manage .tab{
+    margin-top: 30px;
+}
+.manage .tab .list{
+    margin-right: 60px;
+    border-bottom: 2px solid #fff;
+    border-radius: 1px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+.manage .tab .list.active{
+    border-color: #ff6f3c;
+}
+
+.manage .btn{
+    width: 264px;
+    height: 40px;
+    background: linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -webkit-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -moz-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -ms-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -o-linear-gradient(left, #fd8a44, #ff6f3c);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: 60px auto;
+    cursor: pointer;
+}
+
+.enquiry_lobby{
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+.enquiry_lobby .enquiry_list{
+    border: 1px solid #ddd;
+    padding: 30px 50px 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.enquiry_lobby .location .text{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+.enquiry_lobby .line{
+    position: relative;
+    width: 618px;
+    height: 8px;
+    background: url("../../images/lobby_01.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 14px 20px;
+}
+.enquiry_lobby .dhl{
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    color: #999;
+}
+.enquiry_lobby .data{
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    color: #999;
+}
+
+.enquiry_lobby .box{
+    margin-top: 46px;
+}
+.enquiry_lobby .price{
+    width: 180px;
+    height: 35px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #666;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 30px;
+}
+.enquiry_lobby .price span{
+    margin: 0 10px;
+}
+.enquiry_lobby .more{
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.enquiry_lobby .info{
+    margin: 20px 0;
+    font-size: 14px;
+    color: #999;
+}
+.enquiry_lobby .info span{
+    margin-right: 60px;
+}
+
+.detail{
+    height: 64px;
+    line-height: 64px;
+    font-size: 14px;
+    color: #999;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+}
+
+.detail span{
+    margin-left: 20px;
+    color: #0d89fc;
+    cursor: pointer;
+}
+

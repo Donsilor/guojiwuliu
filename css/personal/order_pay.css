@@ -1,0 +1,379 @@
+.order_detial{
+    padding: 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.order_detial .step{
+    margin-top: 30px;
+}
+.order_detial .step .graph{
+    width: 800px;
+    height: 140px;
+    margin-left: 60px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.order_detial .step .list .circle{
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    color: #fafafa;
+}
+.order_detial .list.active .circle{
+    background-color: #ff6f3c;
+}
+.order_detial .step .list .line{
+    width: 100px;
+    height: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 9px;
+}
+.order_detial .list.active .line{
+    border-color: #ff6f3c;
+}
+
+.order_detial .list:nth-child(odd) .circle .text{
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 260px;
+    font-size: 14px;
+    color: #999;
+}
+.order_detial .list:nth-child(even) .circle .text{
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 260px;
+    font-size: 14px;
+    color: #999;
+
+}
+.order_detial .list.active .text{
+    color: #333 !important;
+}
+
+.status{
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.status .status_r{
+    margin-bottom: 30px;
+}
+.status .status_r .tit{
+    margin-bottom: 30px;
+}
+.status .status_r .tit span{
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #ff6f3c;
+    padding-bottom: 6px;
+}
+.status_r .list{
+    width: 33.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.order{
+    border: 1px solid #ddd;
+    height: 124px;
+}
+.order .tit{
+    height: 40px;
+    background-color: #f9f8f8;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.order .location{
+    width: 280px;
+    height: 100%;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.order .way{
+    width: 180px;
+    height: 100%;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.order .infomation{
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.order .price{
+    width: 218px;
+    height: 100%;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.order .location .explain{
+    text-align: center;
+    padding-top: 32px;
+    box-sizing: border-box;
+}
+.order .explain .text{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #333;
+}
+.order .explain .iconfont{
+    color: #ccc;
+    margin: 0 5px;
+}
+.order .way .explain{
+    text-align: center;
+    line-height: 84px;
+    font-size: 14px;
+    color: #333;
+}
+.order .infomation .explain {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.order .infomation .explain .weight{
+    margin-top: 18px;
+}
+.order .infomation .explain .unit{
+    margin-top: 4px;
+}
+.order .infomation .explain .unit .color{
+    color: #f00;
+}
+.order .price .explain{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 84px;
+}
+.order .price .explain .color{
+    color: #f00;
+}
+
+.insurance{
+    height: 40px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #333;
+    line-height: 40px;
+}
+.insurance .icon{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin: 11px;
+    text-align: center;
+    line-height: 16px;
+}
+.insurance .iconfont{
+    color: #fff;
+    font-size: 18px;
+}
+.insurance .active .icon{
+    background-color: #fd8a44;
+    border-color: #fd8a44;
+}
+
+.all_price{
+    font-size: 18px;
+    color: #333;
+    margin-top: 60px;
+}
+.all_price .color{
+    color: #f00;
+}
+
+.pay_way{
+    margin: 20px 0 60px;
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.pay_way .tit{
+    margin-bottom: 30px;
+}
+.pay_way .tit span{
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #ff6f3c;
+    padding-bottom: 6px;
+}
+
+.pay_way .way_list{
+    height: 30px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+}
+.way_list .select{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-top: 4px;
+}
+.way_list .circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.way_list.active .circle{
+    background-color: #4c98fd;
+}
+.way_list .icon{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.way_list .iconyue{
+    font-size: 30px;
+    color: #fea802;
+}
+.way_list .iconweixin{
+    font-size: 30px;
+    color: #50b674;
+}
+.way_list .iconzhifubao{
+    font-size: 30px;
+    color: #009fe8;
+}
+
+.way_list .color_red{
+    color: #f00;
+}
+.way_list .color_blue{
+    display: inline;
+    color: #4c98fd;
+    text-decoration: underline;
+}
+
+.pay_way .btn{
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -webkit-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -moz-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -ms-linear-gradient(left, #fd8a44, #ff6f3c);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/*微信支付弹窗*/
+.pop_up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.pop_up .pop{
+    width: 850px;
+    height: 618px;
+    background-color: #fff;
+    margin: 140px auto;
+}
+.pop .pop_top{
+    height: 30px;
+    line-height: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.pop_l{
+    width: 280px;
+    margin: 60px 0 0 110px;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+.pop_l .text{
+    margin-bottom: 5px;
+}
+.pop_l .color{
+    color: #ff6f3c;
+}
+
+.code_box{
+    width: 280px;
+    height: 320px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+.code_box .code{
+    width: 100%;
+    height: 280px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.code_box .code .img_box{
+    width: 188px;
+    height: 188px;
+    margin: 0 auto;
+}
+.code_box .code .img_box img{
+    width: 100%;
+    height: 100%;
+}
+.code_box .code_t {
+    height: 40px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #ff6f3c;
+    text-align: center;
+    line-height: 40px;
+}
+.pop_r{
+    width: 274px;
+    height: 479px;
+    margin: 16px 0 0 80px;
+}
+.pop_r img{
+    width: 100%;
+    height: 100%;
+}

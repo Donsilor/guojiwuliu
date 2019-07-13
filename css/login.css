@@ -1,0 +1,193 @@
+body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+.login{
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    width: 400px;
+}
+.login .top{
+    width: 100%;
+    height: 28px;
+}
+.logo{
+    width: 106px;
+    height: 28px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.top .tit{
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.login_c,
+.login_d{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 0 30px 30px;
+    box-sizing: border-box;
+}
+.type{
+    position: relative;
+    height: 56px;
+    border-bottom: 1px solid #ddd;
+}
+.login_c .code{
+    width: 40px;
+    height: 40px;
+    background: url("../images/login_01.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 10px -20px 0 0;
+    cursor: pointer;
+}
+.tab{
+    width: 260px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
+.tab .list{
+    margin-right: 50px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+.tab .list.active{
+    border-color: #ff6f3c;
+}
+
+.login_c .login_r{
+    padding-top: 60px;
+}
+.ipt_box{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.ipt_box .ipt{
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.btn,
+.acquire{
+    height: 40px;
+    background: linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -webkit-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -moz-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -ms-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -o-linear-gradient(left, #fd8a44, #ff6f3c);
+    font-size: 16px;
+    color: #fff;
+    margin: 60px 0 20px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.register{
+    font-size: 14px;
+    color: #999;
+    text-align: right;
+}
+
+.acquire{
+    width: 140px ;
+    display: none;
+}
+
+.ipt_box.active .ipt{
+    width: 190px !important;
+}
+
+.ipt_box.active .acquire{
+    display: block;
+    margin: 0;
+}
+
+
+/*二维码登录*/
+.login_d .login_r{
+    padding-top: 30px;
+    text-align: center;
+}
+.text_a{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+.text_b{
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+.code_r{
+    width: 180px;
+    height: 180px;
+    margin: 15px auto;
+}
+.code_r img{
+    width: 100%;
+    height: 100%;
+}
+.updata{
+    font-size: 14px;
+    color: #2a91fa;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login_d .code{
+    width: 40px;
+    height: 40px;
+    background: url("../images/login_02.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 10px -20px 0 0;
+    cursor: pointer;
+}
+
+.agreement{
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+}
+.agreement .icon{
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ddd;
+    margin: 2px 6px;
+}
+.agreement .iconfont{
+    position: relative;
+    left: -2px;
+    top: -2px;
+    color: #fff;
+}
+.agreement.active .icon{
+    background-color: #4c99fd;
+    border-color: #4c99fd;
+}

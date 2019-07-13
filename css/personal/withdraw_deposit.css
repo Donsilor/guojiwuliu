@@ -1,0 +1,227 @@
+.withdraw_deposit,
+.withdraw_detail{
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.withdraw_deposit .text{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #999;
+    line-height: 20px;
+}
+.withdraw_deposit .text .bold{
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    line-height: 22px;
+}
+.withdraw_detail{
+    margin-top: 20px;
+}
+.withdraw_detail .list{
+    height: 34px;
+    margin-bottom: 12px;
+}
+.withdraw_detail .left{
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    font-size: 16px;
+    color: #333;
+}
+.withdraw_detail .right{
+    width: 280px;
+    height: 34px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.withdraw_detail .right .ipt{
+    width: 100%;
+    height: 32px;
+}
+.withdraw_detail .list_r{
+    font-size: 14px;
+    color: #28a2f8;
+    margin-bottom: 10px;
+}
+.withdraw_detail .list_r .right{
+    border: none;
+    cursor: pointer;
+}
+.withdraw_detail .list_color{
+    font-size: 12px;
+    color: #999;
+}
+
+.withdraw_detail .text{
+    margin: 5px 0 0 10px;
+}
+
+.withdraw_detail .list_d .right{
+    width: 280px;
+    height: 34px;
+    border: none;
+    padding: 0;
+}
+.withdraw_detail .ipt_box2{
+    width: 148px;
+    height: 34px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.withdraw_detail .ipt_box2 .ipt2{
+    width: 100%;
+    height: 32px;
+}
+.withdraw_detail .btn{
+    width: 120px;
+    height: 34px;
+    background: linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -webkit-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -moz-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -ms-linear-gradient(left, #fd8a44, #ff6f3c);
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.withdraw_detail .iconfont{
+    margin-top: 8px;
+}
+
+.withdraw_detail .list_color .right{
+    border: none;
+    width: auto;
+}
+
+.withdraw_detail .confirm{
+    width: 120px;
+    height: 36px;
+    background-color: #ff7c40;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 20px 0 0 100px;
+    box-shadow: 0 0 5px #ff7c40;
+    cursor: pointer;
+}
+
+
+/*弹窗*/
+
+.pop_up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    display: none;
+}
+.add_card{
+    width: 680px;
+    background-color: #fff;
+    padding: 0 30px 30px;
+    box-sizing: border-box;
+    margin: 200px auto;
+}
+.add_card .tit{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+    color: #333;
+}
+.add_card .pop_list{
+    height: 34px;
+    margin-top: 30px;
+}
+.pop_list .left{
+    width: 120px;
+    height: 34px;
+    text-align: right;
+    line-height: 34px;
+    font-size: 14px;
+    color: #333;
+}
+.pop_list .right{
+    width: 280px;
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.pop_list .right .ipt{
+    width: 100%;
+    height: 32px;
+}
+.pop_list .iconfont{
+    margin-top: 8px;
+}
+.pop_up .btn{
+    width: 240px;
+    height: 40px;
+    margin: 30px 0 0 115px;
+}
+.pop_up .btn .quit{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ff713c;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ff713c;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.pop_up .btn .confirm{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(left, #fd8a44, #ff713c);
+    background: -webkit-linear-gradient(left, #fd8a44, #ff713c);
+    background: -moz-linear-gradient(left, #fd8a44, #ff713c);
+    background: -ms-linear-gradient(left, #fd8a44, #ff713c);
+    background: -o-linear-gradient(left, #fd8a44, #ff713c);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

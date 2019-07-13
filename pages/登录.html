@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="login">
+        <div class="top clf">
+            <div class="logo fl">
+                <a href="./index.html">
+                    <img src="../images/logo@2x.png" alt="">
+                </a>
+            </div>
+            <div class="tit fl">品牌传语牌宣传语</div>
+        </div>
+        <div>
+            <!--账号密码登录-->
+            <div class="login_c">
+                <div class="type clf">
+                    <div class="fl tab clf">
+                        <div class="list fl active">密码登录</div>
+                        <div class="list fl">验证码登录</div>
+                    </div>
+                    <div class="fr code"></div>
+                </div>
+                <div class="login_r">
+                    <div class="ipt_box">
+                        <input type="text" class="ipt" placeholder="请输入手机号">
+                    </div>
+                    <div class="ipt_box clf">
+                        <input type="text" class="fl ipt" placeholder="请输入密码">
+                        <div class="acquire fr">获取验证码</div>
+                    </div>
+                    <div class="btn">登录</div>
+                    <div class="register">
+                        <a href="./注册.html">立即注册</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--二维码登录-->
+            <div class="login_d" style="display: none;">
+                <div class="type clf">
+                    <div class="fl tab clf">
+                        <div class="list fl">微信二维码登录</div>
+                    </div>
+                    <div class="fr code"></div>
+                </div>
+                <div class="login_r">
+                    <div class="text_a">微信扫一扫</div>
+                    <div class="text_b">关注微信公众号，即可登录</div>
+                    <div class="code_r">
+                        <img src="../images/code@2x.png" alt="">
+                    </div>
+                    <div class="updata">刷新二维码</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../common/jquery/jquery.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

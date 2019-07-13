@@ -1,0 +1,235 @@
+.order_detial{
+    padding: 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.order_detial .step{
+    margin-top: 30px;
+}
+.order_detial .step .graph{
+    width: 1002px;
+    height: 140px;
+    margin-left: 60px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.order_detial .step .list .circle{
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    color: #fafafa;
+}
+.order_detial .list.active .circle{
+    background-color: #ff6f3c;
+}
+.order_detial .step .list .line{
+    width: 134px;
+    height: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 9px;
+}
+.order_detial .list.active .line{
+    border-color: #ff6f3c;
+}
+
+.order_detial .list:nth-child(odd) .circle .text{
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 260px;
+    font-size: 14px;
+    color: #999;
+}
+.order_detial .list:nth-child(even) .circle .text{
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 260px;
+    font-size: 14px;
+    color: #999;
+
+}
+.order_detial .list.active .text{
+    color: #333 !important;
+}
+
+.bg_white{
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.bg_white .tit{
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #ff6f3c;
+    padding-bottom: 5px;
+}
+
+.bg_white .detail{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+.bg_white .tit{
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #ff6f3c;
+    padding-bottom: 5px;
+}
+
+.company{
+    margin-top: 30px;
+}
+.company .iconfont{
+    margin-left: 6px;
+    color: #1e0e08;
+}
+
+.contact{
+    font-size: 14px;
+    color: #666;
+    margin-top: 30px;
+}
+.contact span{
+    margin-right: 80px;
+    cursor: pointer;
+}
+.contact .iconfont{
+    color: #1583fe;
+    margin-right: 6px;
+}
+
+.information{
+    margin: 20px 0;
+}
+.information .location .text{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+.information .location .line{
+    width: 480px;
+    height: 8px;
+    background: url("../images/lobby_01.png") no-repeat center;
+    background-size: 100% 100%;
+    margin: 14px 20px;
+}
+
+.information .text_r{
+    font-size: 16px;
+    color: #333;
+    margin-top: 30px;
+}
+.information .ipt{
+    width: 140px;
+    height: 34px;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+.information .btn{
+    width: 230px;
+    height: 40px;
+    background: linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -webkit-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -moz-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -ms-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -o-linear-gradient(left, #fd8a44, #ff6f3c);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    margin: 60px auto 0;
+    cursor: pointer;
+}
+
+.flow{
+    height: 255px;
+}
+.flow .line_box{
+    width: 786px;
+    height: 42px;
+    padding-top: 108px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.flow .line_box .circle{
+    position: relative;
+    width: 42px;
+    height: 42px;
+    background-color: #ff6f3c;
+    border-radius: 50%;
+}
+
+.flow .line_box .circle_1{
+    background: url("../images/icon_01.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.flow .line_box .circle_2{
+    background: url("../images/icon_02.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.flow .line_box .circle_3{
+    background: url("../images/icon_03.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.flow .line_box .circle_4{
+    background: url("../images/icon_04.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.flow .line_box .circle_5{
+    background: url("../images/icon_05.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.flow .line_box .circle_6{
+    background: url("../images/icon_06.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.flow .line_box .circle_7{
+    background: url("../images/icon_07.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.flow .line_box .text{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 246px;
+    height: 60px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.flow .circle:nth-of-type(odd) .text{
+    top: -90px;
+}
+
+.flow .line{
+    width: 82px;
+    height: 10px;
+    border-bottom: 1px solid #ff6f3c;
+    margin-top: 12px;
+}

@@ -1,0 +1,129 @@
+.order_detial{
+    padding: 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.order_detial .step{
+    margin-top: 30px;
+}
+.order_detial .step .graph{
+    width: 800px;
+    height: 140px;
+    margin-left: 60px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.order_detial .step .list .circle{
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    color: #fafafa;
+}
+.order_detial .list.active .circle{
+    background-color: #ff6f3c;
+}
+.order_detial .step .list .line{
+    width: 100px;
+    height: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 9px;
+}
+.order_detial .list.active .line{
+    border-color: #ff6f3c;
+}
+
+.order_detial .list:nth-child(odd) .circle .text{
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 260px;
+    font-size: 14px;
+    color: #999;
+}
+.order_detial .list:nth-child(even) .circle .text{
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 260px;
+    font-size: 14px;
+    color: #999;
+
+}
+.order_detial .list.active .text{
+    color: #333 !important;
+}
+
+.status{
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.status .status_r{
+    margin-bottom: 60px;
+}
+.status .status_r .tit{
+    margin-bottom: 30px;
+}
+.status .status_r .tit span{
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #ff6f3c;
+    padding-bottom: 6px;
+}
+.status_r .list{
+    width: 33.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.status .price{
+    margin-top: 80px;
+    clear: both;
+}
+.status .price .color{
+    color: #fd4c4c;
+}
+.status .if_affirm{
+    margin-top: 30px;
+    clear: both;
+}
+.status .if_affirm .back{
+    font-size: 16px;
+    color: #4c99fd;
+    line-height: 40px;
+}
+.status .if_affirm .back a{
+    text-decoration: underline;
+}
+.status .if_affirm .affirm{
+    width: 260px;
+    height: 40px;
+    background: linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -webkit-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -moz-linear-gradient(left, #fd8a44, #ff6f3c);
+    background: -ms-linear-gradient(left, #fd8a44, #ff6f3c);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 20px;
+}
